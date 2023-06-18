@@ -1,0 +1,15 @@
+Keyboard layout
+
+Pantallas BSPWM 
+  - Polybar en ambas pantallas
+  - Automatizar conectar y desconectar pantalla con autorandr
+  - Alternar cursos entre ventanas flotantes
+  - Botones de volumen y brillo
+Polybar
+  - 
+
+Rofi
+  - Arreglar launchers 
+    - runner, music, powermenu, screenshot, network
+    
+  

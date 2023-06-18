@@ -1,0 +1,14 @@
+{
+   "chrome_extension_description": {
+      "message": "Этот инструмент обнаруживает темы и плагины, используемые на сайтах WordPress, и отображает информацию о них."
+   },
+   "lang": {
+      "message": "ru"
+   },
+   "language": {
+      "message": "ru"
+   },
+   "launch_popup_button": {
+      "message": "Нажмите, чтобы посмотреть установленную тему и плагины"
+   }
+}

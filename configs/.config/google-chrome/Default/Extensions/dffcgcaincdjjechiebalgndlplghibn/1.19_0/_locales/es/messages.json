@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Con más de 2 millones de jugadores al mes, Pinturillo 2 es el juego de dibujar y adivinar más popular del momento.\n\nPor turnos cada jugador realiza un dibujo sobre una palabra secreta que el resto debe descubrir. El que adivine más deprisa más puntos obtendrá.\n\nMesa publica - Juega con gente de todo el mundo. Elige la sala o deja que el sistema te ponga en una al azar.\nMesa privada - Juega con familiares y amigos en una mesa privada. Hasta 12 jugadores.\n\nCARACTERÍSTICAS\n• Dibuja y adivina con jugadores de todo el mundo en tiempo real\n• Cinco idiomas: Ingles, Español, Francés, Italiano y Portugués\n• Mas de 5000 palabras\n• Sistema de pistas automático y equitativo para todos los jugadores\n• Botón de falta para penalizar a otros jugadores por sistema de votación\n• Filtro antiflood\n\n---\n\nGracias por jugar a Pinturillo 2. Estamos muy contentos de que disfruten con este juego. ¡Gracias!",
+      "message": "El juego de dibujar y adivinar más popular del momento con 2 millones de jugadores al mes."
+   },
+   "appName": {
+      "description": "El juego de dibujar y adivinar más popular del momento con 2 millones de jugadores al mes.",
+      "message": "Pinturillo 2"
+   }
+}

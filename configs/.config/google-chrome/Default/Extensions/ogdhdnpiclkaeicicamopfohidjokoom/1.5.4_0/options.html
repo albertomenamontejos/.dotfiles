@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>LinkMiner by Point Blank SEO</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+
+<body>
+<header>
+    <div class="wrapper">
+        <div class="logo"><p><a href="http://pointblankseo.com/linkminer">LinkMiner <span>by Point Blank SEO</span></a></p></div>
+    </div>
+</header>
+<section>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Settings</h1>
+            <h2>General</h2>
+            <form id="registrationForm">
+                <div class="auth_sys">
+                    <div class="access_btn">
+                        <div class="left">
+                            <div class="auth_block"  id="jon_cooper_chrome_extension_ahrefs_auth_status">
+                            <span>
+                                <a id="jon_cooper_chrome_extension_new_tab" data-provider="ahref"  href="#" target="_blank" class="ahres">AUTHORIZE AHREFS DATA</a>
+                                </span>
+                                <br>
+                            </div>
+                            <div class="auth_block"  id="jon_cooper_chrome_extension_ahrefs_auth_revoke">
+                            <span>
+                                <a data-provider="ahref"  class="ahres unauth">UNAUTHORIZE AHREFS DATA</a>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="middle">
+                            <div class="auth_block" id="jon_cooper_chrome_extension_moz_auth_status" >
+                            <span>
+                                <a id="jon_cooper_chrome_extension_moz_new_tab" href="#" target="_blank" class="moz">AUTHORIZE MOZ DATA</a>
+                                </span>
+                                <div id="moz_save_box" class="save_box">
+                                    <input type="text" id="mozAccessToken" placeholder="Moz Access Id" />
+                                    <input type="text" style="margin-top: 8px;" id="mozSecretKey" placeholder="Moz Secret Key" />
+                                    <button id="saveMozKey" type="button" class="btn">Save </button>
+                                </div>
+                            </div>
+                            <div class="auth_block"  id="jon_cooper_chrome_extension_moz_auth_revoke">
+                            <span class='r'>
+                                <a style="margin-bottom:10px;" data-provider="mozseo" class="moz unauth">UNAUTHORIZE MOZ DATA</a>
+                            </span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="auth_block" id="jon_cooper_chrome_extension_majestic_auth_status">
+                            <span class='r'>
+                                <a id="jon_cooper_chrome_extension_majestic_new_tab"  href="#" target="_blank" class="majes">AUTHORIZE MAJESTIC DATA</a>
+                                </span>
+                                <div id="majestic_save_box" class="save_box">
+                                    <input type="text" id="majesticAccessToken" placeholder="Majestic Access Token" /><br />
+                                    <button id="saveMajesticKey" type="button" class="btn">Save Token</button>
+                                </div>
+                            </div>
+                            <div class="auth_block"  id="jon_cooper_chrome_extension_majestic_auth_revoke">
+                            <span class='r'>
+                                <a style="margin-bottom:10px;" data-provider="majestic" class="majes unauth">UNAUTHORIZE MAJESTIC DATA</a>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="select_box">
+                        <div class="check_box_data">
+                            <div class="select_title">
+                                <p>Select Data Providers</p>
+                            </div>
+                            <div class="select_type" id="apiProvider">
+                                <label> <input type="radio" name="dataProvider" value="ahref">&nbsp;Ahrefs</label><br />
+                                <label><input type="radio" name="dataProvider" value="majestic">&nbsp;Majestic</label><br />
+                                <label><input type="radio" name="dataProvider" id="selectMoz" value="moz">&nbsp;Moz</label>
+                            </div>
+                        </div>
+                        <div class="check_box_number">
+                            <div class="select_title">
+                                <p>Number displayed in front of the extension's icon</p>
+                            </div>
+                            <div class="select_num">
+                                <label><input type="radio"  name="extensionIcon" value="all" checked="checked">&nbsp;Total Links</label><br />
+                                <label><input type="radio"  name="extensionIcon" value="external">&nbsp;External Links</label>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="submitButton" href="#">SAVE</a>
+                </div>
+                <h2>Link Checking</h2>
+                <div class="auth_sys">
+                    <div class="select_box">
+                        <div class="check_box">
+                            <div class="select_title">
+                                <p>Show link data on a </p>
+                            </div>
+                            <div class="select_link">
+
+                                <label><input type="radio" name="typeOfData" value="exact" checked="checked">
+                                    &nbsp;URL Level</label><br>
+                                <label><input type="radio" name="typeOfData" value="prefix" >
+                                    &nbsp;Prefix Level</label><br>
+                                <label><input type="radio" name="typeOfData" value="domain">
+                                    &nbsp;Domain Level</label>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_box" style="border-top:none;">
+                        <div class="check_box">
+                            <div class="select_title">
+                                <p>Working Links</p>
+                            </div>
+                            <div class="select_link">
+                                <label><input type="checkbox" value="showStatusCode" name="showStatusCode">&nbsp;Status codes & link data of working links</label><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_box" style="border:none;">
+                        <div class="check_box">
+                            <div class="select_title">
+                                <p>Displaying links counts next to link</p>
+                            </div>
+                            <div class="select_link">
+                                <label><input type="checkbox" name="backlink" value="Backlinks">&nbsp;Backlinks</label><br>
+                                <label><input type="checkbox" name="refDomain" value="Referrence Domain">&nbsp;Referring Domains</label><br>
+                                <label><input type="checkbox" name="externalLinks" value="External Links">&nbsp;Pull Metrics ONLY for external links</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_box">
+                        <div class="check_box">
+                            <div class="select_title">
+                                <p>Social Metrics</p>
+                            </div>
+                            <div class="select_link">
+                                <label><input type="checkbox" name="facebook" value="facebook">&nbsp;Facebook likes</label><br>
+                                <!--   <input type="checkbox" name="twitter" value="twitter"><label for="c1">&nbsp;Tweets</label><br> -->
+                                <label><input type="checkbox" name="pinterest" value="pins">&nbsp;Pins</label><br>
+                                <label><input type="checkbox"  name="googlePlus" value="gplus">&nbsp;+1's</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_box" style="border:none;">
+                        <div class="check_box">
+                            <div class="select_title">
+                                <p>Top Links (Ahrefs only)</p>
+                            </div>
+                            <div class="select_link">
+
+                                <label><input type="checkbox" value="topFiveLinks" name="topFiveLinks">&nbsp;Show top 5 links</label><br>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_box">
+                        <div class="check_box">
+                            <div class="select_title">
+                                <p>Links to check on a given page</p>
+                            </div>
+                            <div class="select_link">
+
+                                <label><input type="radio"  name="linksToCheck" value="all" checked="checked">&nbsp;All Links</label><br>
+                                <label><input type="radio"  name="linksToCheck" value="external">&nbsp;ONLY External Links</label>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_box" style="border-top:none;">
+                        <div class="check_box">
+                            <div class="select_title">
+                                <p>Links records to include on CSV exports </p>
+                            </div>
+                            <div class="select_link">
+
+                                <label><input type="radio" name="csvOption" value="all" checked="checked">&nbsp;All Links</label><br>
+                                <label><input type="radio"name="csvOption" value="external">&nbsp;ONLY External Links</label>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="submitButton" href="#">SAVE</a>
+                </div>
+                <h2>SERP Checking</h2>
+                <div class="auth_sys">
+                    <div class="select_box" style="border-top:none;">
+                        <div class="check_box">
+                            <div class="select_title" style="margin-top:0;">
+                                <p>Auto-check upon page load</p>
+                            </div>
+                            <div class="select_link" style="margin-top:0;">
+
+                                <label><input type="checkbox" value="autoCheck" name="autoCheck">&nbsp;Yes</label><br>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_box" style="border-top:none;">
+                        <div class="check_box">
+                            <div class="select_title" style="margin-top:0;">
+                                <p>On Page Elements</p>
+                            </div>
+                            <div class="select_link" style="margin-top:0;">
+
+                                <label><input type="checkbox" value="inOutLinks" name="inOutLinks">&nbsp;Check In/Out Links</label><br>
+
+                            </div>
+                        </div>
+                    </div>
+                    <h3>3rd Party Metrics</h3>
+                    <div class="select_box" style="border-top:none;">
+                        <div class="links_box">
+                            <p>Social</p>
+                            <label><input type="checkbox" name="facebookGs" value="facebook">&nbsp;Facebook likes</label><br>
+                            <!-- <input type="checkbox" name="twitterGs" `value="twitter"><label for="c1">&nbsp;Tweets</label><br> -->
+                            <label><input type="checkbox" name="pinterestGs" value="pins">&nbsp;Pins</label><br>
+                            <label><input type="checkbox" name="googlePlusGs" value="gplus">&nbsp;+1's</label>
+                        </div>
+                        <div class="links_box">
+                            <p>Ahrefs</p>
+                            <label><input type="checkbox" name="aBacklinkGs" value="aBacklinkGs">&nbsp;Total Links</label><br>
+                            <label><input type="checkbox" name="aRefDomainGs" value="aRefDomainGs">&nbsp;Root Domains</label><br>
+                            <label><input type="checkbox" name="aUrlRatingGs" value="aUrlRatingGs">&nbsp;URL Rating</label>
+                        </div>
+                        <div class="links_box">
+                            <p>Majestic</p>
+                            <label><input type="checkbox" name="mBacklinkGs" value="mBacklinkGs">&nbsp;Total Links</label><br>
+                            <label><input type="checkbox" name="mRefDomainGs" value="mRefDomainGs">&nbsp;Root Domains</label><br>
+                            <label><input type="checkbox" name="mTrustflowGs" value="mTrustflowGs">&nbsp;Trust Flow</label><br>
+                            <label><input type="checkbox" name="mCitationflowGs" value="mCitationflowGs">&nbsp;Citation Flow</label>
+                        </div>
+
+                        <div class="links_box">
+                            <p>Moz</p>
+                            <label><input type="checkbox" name="mzPageAuthorityGs" value="mzPageAuthorityGs">&nbsp;Page Authority</label><br>
+                            <label><input type="checkbox" name="mzDomainAuthorityGs" value="mzDomainAuthorityGs">&nbsp;Domain Authority</label><br>
+                            <label><input type="checkbox" name="mzBacklinkGs" value="mzBacklinkGs">&nbsp;Total Links</label><br>
+                            <label><input type="checkbox" name="mzRefDomainGs" value="mzRefDomainGs">&nbsp;Root Domains</label>
+
+                        </div>
+                    </div>
+                    <a class="submitButton" href="#">SAVE</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</section>
+<section>
+    <div class="wrapper">
+        <div class="footer_top">
+            <p class="footer_top_text">Full documentation on these settings &amp; how to use LinkMiner</p>
+            <a target="_blank" href="http://www.pointblankseo.com/linkminer">www.pointblankseo.com/linkminer</a>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="wrapper">
+        <div class="footer_text"><p>Point Blank SEO &copy; <span id="currentDate">2015</span></p></div>
+        <img src="images/src.jpg" />
+    </div>
+</footer>
+<script src="scripts/jquery-2.1.1.min.js"></script>
+<script src="scripts/options.js"></script>
+</body>
+</html>

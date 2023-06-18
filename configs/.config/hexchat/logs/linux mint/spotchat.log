@@ -1,0 +1,80 @@
+**** INICIANDO CONEXIÓN EN Sun Jun 18 12:56:31 2023
+
+jun 18 12:56:31 *	HOSTLEN=64 INVEX=I KEYLEN=32 KICKLEN=300 LINELEN=512 MAXLIST=I:100,b:100,e:100,g:100 MAXTARGETS=20 MODES=20 MONITOR=30 NAMELEN=130 NAMESX NETWORK=SpotChat NICKLEN=30 :are supported by this server
+jun 18 12:56:31 *	PREFIX=(Yqaohv)!~&@%+ REMOVE SAFELIST STATUSMSG=!~&@%+ TOPICLEN=330 UHNAMES USERLEN=10 USERMODES=,,s,BHIRSWcdghikorwx VBANLIST VLIST=b WATCH=30 WHOX :are supported by this server
+jun 18 12:56:31 *	There are 0 users and 261 invisible on 3 servers
+jun 18 12:56:31 *	2 :operator(s) online
+jun 18 12:56:31 *	1 :unknown connections
+jun 18 12:56:31 *	68 :channels formed
+jun 18 12:56:31 *	I have 261 clients and 1 servers
+jun 18 12:56:31 *	Current local users: 261  Max: 295
+jun 18 12:56:31 *	Current global users: 261  Max: 301
+jun 18 12:56:31 *	siren.de.SpotChat.org message of the day
+jun 18 12:56:31 *	              _____             __       __          __
+jun 18 12:56:31 *	             / ___/____  ____  / /______/ /_  ____ _/ /_
+jun 18 12:56:31 *	             \__ \/ __ \/ __ \/ __/ ___/ __ \/ __ `/ __/
+jun 18 12:56:31 *	            ___/ / /_/ / /_/ / /_/ /__/ / / / /_/ / /_
+jun 18 12:56:31 *	           /____/ .___/\____/\__/\___/_/ /_/\__,_/\__/
+jun 18 12:56:31 *	               /__/
+jun 18 12:56:31 *	                    http://spotchat.org/imprint/
+jun 18 12:56:31 *	                    http://spotchat.org/servers/
+jun 18 12:56:31 *	 
+jun 18 12:56:31 *	=============================================================================
+jun 18 12:56:31 *	                      RULES (FOR THOSE WITHOUT COMMON SENSE)
+jun 18 12:56:31 *	=============================================================================
+jun 18 12:56:31 *	: On connecting to this Network you are agreeing to be scanned for open
+jun 18 12:56:31 *	     Proxies. Please disregard any messages from Monitoring or Security
+jun 18 12:56:31 *	     software about this matter, it helps us keep our network a safe place.
+jun 18 12:56:31 *	: Bots are allowed if they cause no harm to other Users on this Network or 
+jun 18 12:56:31 *	     annoy them in any way. Bots disturbing the normal flow of this Network
+jun 18 12:56:31 *	     are not allowed.
+jun 18 12:56:31 *	: Bots are to be marked with the usermode +B ( /MODE nick +B )
+jun 18 12:56:31 *	: 3 connections per IP are allowed on this IRC Network. Exceptions can be 
+jun 18 12:56:31 *	     arranged in consultation with the Operators. 
+jun 18 12:56:31 *	: NOT allowed: hacking of any kind, warez, XDCC, dissemination of pornographic content,
+jun 18 12:56:31 *	     overexposure of violence, trolling and flooding/spamming.
+jun 18 12:56:31 *	: Listen to the IRC Operators and respect their decisions. Decisions made
+jun 18 12:56:31 *	     by the IRC Operators are final.
+jun 18 12:56:31 *	 
+jun 18 12:56:31 *	The Operators of this Network reserve the right to block Channels or Users 
+jun 18 12:56:31 *	who breach these rules and to change the above rules without prior notice.
+jun 18 12:56:31 *	 
+jun 18 12:56:31 *	Anyone who operates computer sabotage against us make themselves liable 
+jun 18 12:56:31 *	to prosecution under Section 303b of the German Criminal Code and we will 
+jun 18 12:56:31 *	press charges against them.
+jun 18 12:56:31 *	 
+jun 18 12:56:31 *	=============================================================================
+jun 18 12:56:31 *	                      SOME IMPORTANT COMMANDS (NO SHORTCUTS)
+jun 18 12:56:31 *	=============================================================================
+jun 18 12:56:31 *	vHosts:
+jun 18 12:56:31 *	      /MSG HostServ HELP REQUEST
+jun 18 12:56:31 *	Nicks:
+jun 18 12:56:31 *	      /MSG NickServ HELP REGISTER
+jun 18 12:56:31 *	      /MSG NickServ HELP SET
+jun 18 12:56:31 *	Channels:
+jun 18 12:56:31 *	      /MSG ChanServ HELP REGISTER
+jun 18 12:56:31 *	      /MSG ChanServ HELP FLAGS
+jun 18 12:56:31 *	 
+jun 18 12:56:31 *	=============================================================================
+jun 18 12:56:31 *	           SPOTCHAT ADMINISTRATION: See http://spotchat.org/staff/
+jun 18 12:56:31 *	=============================================================================
+jun 18 12:56:31 *	In case a User is masquerading as an IRC-Op and no Operator can be found
+jun 18 12:56:31 *	   please immediately contact Network management!
+jun 18 12:56:31 *	 
+jun 18 12:56:31 *	Contact Us via (in order of fastest service to slowest): 
+jun 18 12:56:31 *	1) The #SpotChat Channel
+jun 18 12:56:31 *	2) Email us at opers@spotchat.org
+jun 18 12:56:31 *	3) http://spotchat.org/contact/
+jun 18 12:56:31 *	=============================================================================
+jun 18 12:56:31 *	End of message of the day.
+jun 18 12:56:31 *	SpotChat-4qqitj.dynamicip.rima-tde.net :is now your displayed host
+jun 18 12:56:31 *	alberto pone modo +i en alberto
+jun 18 12:56:31 *	alberto pone modo +x en alberto
+jun 18 12:56:31 *	alberto pone modo +R en alberto
+jun 18 12:56:31 -InfoServ-	*** Message(s) of the Day ***
+jun 18 12:56:31 -InfoServ-	[New connect modes] Notice from r00t, posted 16:57 on 09/05/2018:
+jun 18 12:56:31 -InfoServ-	We now set usermode +R by default when you connect to SpotChat. This means PMs from unregistered users are blocked. This is a good time to register with SpotChat services if you haven't already. See /msg NickServ help REGISTER   for help with that, or go to the #SpotChat channel.
+jun 18 12:56:31 -InfoServ-	*** End of Message(s) of the Day ***
+jun 18 12:56:31 -NickServ-	Welcome to SpotChat, alberto! Here on SpotChat, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ HELP and /msg ChanServ HELP
+**** FINALIZANDO CONEXIÓN EN Sun Jun 18 12:57:00 2023
+

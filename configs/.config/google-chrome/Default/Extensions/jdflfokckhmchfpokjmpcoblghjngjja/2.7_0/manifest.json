@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/inactive128.png",
+         "16": "images/inactive48.png",
+         "19": "images/inactive48.png",
+         "32": "images/inactive48.png",
+         "48": "images/inactive48.png"
+      },
+      "default_popup": "html/popup.html",
+      "default_title": "WordPress Theme Detector and Plugins Detector"
+   },
+   "background": {
+      "service_worker": "/js/background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_chrome_extension_description__",
+   "icons": {
+      "128": "images/inactive128.png",
+      "16": "images/inactive16.png",
+      "19": "images/inactive19.png",
+      "48": "images/inactive48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlPGil/1GsOr+/Pk6M06ANVpjE2o4tGl74FnbbzOUKVLJGloUaS1kUZzPbrWMxRf85UJHHoHBNzMulmE/WmJ87aDtCZnRi4NX+ACdYLeh7jZI+HCiDl1WkQbRBjBcOE05T+NB2e/1U0YupA3BipE3tSZ6ViiYUoFxhB72xqKWgfnwNECMKHQMetrFz0V57JRI+izFOABdQR2+m4xonJnPMi4nMYwixcuO57+rMyVlC94y2TXxt2ufodU2OMa7690wieBUiLfn/Ajktq3i0+FXyl23uwuK1TW668bGH292KgMd/qKHxQhJfvWxrcHCvykhvoIB09bPUwAXPzkTQ0ICTQIDAQAB",
+   "manifest_version": 3,
+   "name": "WordPress Theme Detector and Plugins Detector",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.7"
+}

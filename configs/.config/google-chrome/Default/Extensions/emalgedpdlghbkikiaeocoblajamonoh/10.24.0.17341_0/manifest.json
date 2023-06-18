@@ -1,0 +1,46 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "img/logo_prod_supported.png",
+         "38": "img/logo_prod_supported.png"
+      },
+      "default_title": "Add to Karma"
+   },
+   "author": "Karma",
+   "background": {
+      "service_worker": "background.worker.js"
+   },
+   "content_scripts": [ {
+      "js": [ "js/authorizationListener.bundle.js" ],
+      "matches": [ "https://*.karmanow.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_matches": [ "*://*/*.json", "*://*/*.pdf", "*://*/*.jpeg", "*://*/*.jpg", "*://*/*.png", "*://*/*.svg" ],
+      "js": [ "js/shoptagrJQ.bundle.js", "js/shoptagrInterpreter.bundle.js", "js/inject.bundle.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Shop Smarter: Compare Prices, Get Coupons, Price alerts & Earn Cashback!",
+   "differential_fingerprint": "1.e7cf6ee34d5875c8b7bf89cb1c5c7c8d408c0038be6300c53040d2526cc34140",
+   "externally_connectable": {
+      "ids": [ "*" ],
+      "matches": [ "*://karmanow.com/*", "*://*.karmanow.com/*" ]
+   },
+   "homepage_url": "https://www.karmanow.com",
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "img/logo_prod_supported.png",
+      "16": "img/logo_prod_supported.png",
+      "48": "img/logo_prod_supported.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyW5Q8zVoZkVZfuLf/nIeNh8KhIWOfZL58yT+5+5SXcY1lkGPgb04XKTn4rcO3QuwhDkExCLdnvzaeQMHFbe3LHE+IGADawYQUBuMCvwv6RJ2Z9tCXhN2IZYLM9R+yjsGndEOn0ITWw6fvcNle0uhH9jHkfsQUQJQhG9i8GypR1itZOvfBWpPaQZGmbiESqaSVW0ZxmmjNBpwhI4pYAPWoM/vfDQaw+sqCeXRCOQYUryLd9h8mTnk1zpFczGxkEXxYCHDijjqpTcaI5VoIQKFSNVQSXMoOsyhIzkaXPOBSvB44VJnSttAkdwri7Fsn/UWaqffbX0EfUjvEeFrE+DQAwIDAQAB",
+   "manifest_version": 3,
+   "name": "Karma | Online shopping, but better",
+   "permissions": [ "tabs", "scripting", "webRequest" ],
+   "short_name": "Karma",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "10.24.0.17341",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "fonts/*.*", "img/*.*", "js/*.*", "lottie/*.*" ]
+   } ]
+}

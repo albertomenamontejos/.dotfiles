@@ -1,0 +1,18 @@
+**** INICIANDO CONEXIÓN EN Sun Jun 18 12:56:26 2023
+
+jun 18 12:56:26 *	*** Looking up your ident...
+jun 18 12:56:26 *	*** Looking up your hostname...
+jun 18 12:56:26 *	Capacidades soportadas: account-notify account-tag away-notify batch cap-notify chghost echo-message extended-join extended-monitor inspircd.org/poison invite-notify labeled-response message-tags multi-prefix server-time standard-replies tls userhost-in-names 
+jun 18 12:56:26 *	Capacidades solicitadas: account-notify account-tag away-notify cap-notify chghost extended-join invite-notify multi-prefix server-time userhost-in-names 
+jun 18 12:56:26 *	*** Found your hostname (161.red-79-150-18.dynamicip.rima-tde.net)
+jun 18 12:56:26 *	Capacidades reconocidas: account-notify account-tag away-notify cap-notify chghost extended-join invite-notify multi-prefix server-time userhost-in-names
+jun 18 12:56:31 *	*** Ident lookup timed out, using ~alberto instead.
+**** FINALIZANDO CONEXIÓN EN Sun Jun 18 12:56:31 2023
+
+**** INICIANDO CONEXIÓN EN Sun Jun 18 12:56:31 2023
+
+jun 18 12:56:31 *	Welcome to the SpotChat IRC Network alberto!~alberto@161.red-79-150-18.dynamicip.rima-tde.net
+jun 18 12:56:31 *	Your host is siren.de.SpotChat.org, running version InspIRCd-3
+jun 18 12:56:31 *	This server was created 17:25:40 May 08 2023
+jun 18 12:56:31 *	siren.de.SpotChat.org InspIRCd-3 BHIRSWcdghikorswx ACIJKMNOPQRSTYabceghiklmnopqrstvz :IJYabeghkloqv
+jun 18 12:56:31 *	ACCEPT=30 AWAYLEN=200 BOT=B CALLERID=g CASEMAPPING=rfc1459 CHANLIMIT=#:20 CHANMODES=Ibeg,k,Jl,ACKMNOPQRSTcimnprstz CHANNELLEN=60 CHANTYPES=# ELIST=CMNTU EXCEPTS=e EXTBAN=,ACNOQRSTUcmwz :are supported by this server

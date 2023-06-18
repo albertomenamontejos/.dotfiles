@@ -1,0 +1,188 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset CSS Here*/
+
+
+body{background:#cccccc;}
+
+header{width:100%; background:#000000; overflow:hidden; padding-top:26px; padding-bottom:26px;}
+
+footer{width:100%; background:#ffffff; overflow:hidden; padding-top:16px; padding-bottom:16px;}
+
+.wrapper{width:100%; max-width:820px; height:auto; margin:0 auto;}
+
+.logo{width:266px; height:22px; float:left;}
+
+.logo p a{text-decoration:none; color:#ff9933; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:18px; font-weight:600;}
+
+.logo p a span{color:#999999; font-weight:300;}
+
+.container{width:100%; max-width:820px; height:auto; margin:0 auto;}
+
+h1{font-size:26px; text-align:left; color:#000;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-top:30px; padding-bottom:20px; padding-left:30px;}
+
+h2{font-size:18px; text-align:left; color:#000; font-weight:600;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-top:20px; padding-bottom:20px; padding-left:30px;}
+
+h3{font-size:14px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-weight:600; padding-bottom:35px;}
+
+.auth_sys{width:100%; max-width:756px; height:auto; padding-top:30px; padding-right:32px; padding-bottom:30px; padding-left:32px; background:#fff; overflow:hidden;}
+
+.access_btn{width:100%;  height:auto; }
+.access_btn .left {float: left; width: 32%; margin-right: 12px; }
+.access_btn .middle {float: left; width: 32%; margin-right: 12px; }
+.access_btn .right {float: left; width: 32%;  }
+
+
+.save_box{width:100%;
+    float:right;
+    height:auto;
+    /*margin-top:20px;*/
+    margin-bottom:20px;
+    display: none;
+}
+
+.save_box input{
+    border:none;
+    background:#fff; border:1px solid #999999;
+    padding-left:10px;
+    width:231px;
+    height:34px;
+    float:left;
+    /*margin-right:6px;*/
+    /*margin-left: 10px;*/
+}
+
+.btn{background:#cccccc; margin-top: 8px; float: right; cursor: pointer; font-size:12px; font-weight:600; border:none; cursor:pointer; padding:12px 13px;}
+
+.select_box{width:100%; max-width:756px; height:auto; border-top:1px solid #999999; border-bottom:1px solid #999999; overflow:hidden; margin-bottom:20px;}
+
+.check_box{width:100%; max-width:756px; height:auto;}
+
+.select_title{width:100%; max-width:288px; float:left; margin-top:20px;}
+
+.select_title p{font-size:14px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-weight:600;}
+
+.select_type{width:100%; max-width:468px; float:left; margin-top:20px; margin-bottom:20px;}
+
+.select_num{width:100%; max-width:468px; float:left; margin-top:20px; margin-bottom:20px;}
+
+.select_link{width:100%; max-width:468px; float:left; margin-top:20px; margin-bottom:20px;}
+
+
+.select_type label,.select_link label, .select_num label{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:14px; cursor: pointer;}
+
+.auth_sys a.submitButton{display:inline-block; float:right; text-align:right; text-decoration:none; font-size:12px; background:#ff9933; color:#ffffff; font-weight:600; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; padding:15px 25px;}
+
+.links_box{width:100%; max-width:188px; float:left; padding-bottom:30px;}
+
+.links_box p{font-size:14px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-weight:600; padding-bottom:15px;}
+
+
+.footer_top{width:100%; max-width:820px; margin:60px 0;}
+
+.footer_top_text{font-size:16px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-weight:300; text-align:center; padding-bottom:10px;}
+
+.footer_top a{text-decoration:none; cursor:pointer; text-align:center; color:#000000; display:block; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+
+.footer_text{ width:100%; max-width:770px; float:left;}
+
+.footer_text p{font-size:14px; text-align:left; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-weight:300; padding-top:10px;}
+
+footer img{ float:right; width:32px; height:32px;}
+
+
+@media only screen and (max-width: 480px) {
+    .logo{padding-left:20px !important;}
+    .auth_sys{ width:94% !important; padding-right:15px !important; padding-left:15px !important;}
+    /*.access_btn{ width:83% !important; float:none !important; margin:0 auto !important;}
+    .access_btn .ahres{float:none !important; text-align:center !important; margin-bottom:10px !important; font-size:12px !important;}
+    .access_btn .majes{float:none !important; text-align:center !important; margin-bottom:10px !important; font-size:12px !important;}
+    */
+    .save_box{float:none !important; margin:0 auto 10px !important;}
+    .save_box input{ width:212px !important; margin-left:8px;}
+    .footer_top_text{font-size:14px !important;}
+    .footer_top a{font-size:14px !important;}
+    .footer_text{width:50% !important; }
+    .footer_text p{padding-left:10px !important;}
+    footer img{margin-right:10px !important;}
+
+}
+
+@media only screen and (max-width: 320px) {
+    .save_box input{width: 148px !important;}
+    /*	.access_btn .ahres{line-height:14px !important;}
+        .access_btn .majes{margin-right:8px; line-height:14px !important;}*/
+    .footer_top_text{padding:0 5px !important; line-height:16px !important;}
+    .footer_top a{padding-top:5px !important;}
+    .footer_text{width:60% !important; }
+}
+.auth_block { display: none;}
+div.auth_block span{
+    width: 80%;
+    font-size:12px;
+    text-decoration:none; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    display:inline-block;
+    color:#ffffff;
+    font-weight:600;
+    background:#ff9933;
+    padding:16px 25px ;
+    /*margin-right:8px;*/
+    float:left;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+div.auth_block span a {
+    color:#ffffff;
+    text-decoration: none;
+
+}
+/*div.auth_block span.r {float: right;}*/

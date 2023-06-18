@@ -1,0 +1,23 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://www.pinturillo2.com/"
+      },
+      "urls": [ "https://www.pinturillo2.com/" ]
+   },
+   "author": "Chachiware",
+   "background": {
+      "persistent": false
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCktlZOjQ+sTpLC/RaKm0WkKPB/CJ6XxhM3M3eHU+yw/MM6rCID/oJsnvourn0NCSiyDHcdQjGudezcj3F8ZWioRwiWw3EgJZn8z9gR0nY1ci2zS+ca8oLvT7dOIcB0QT+9tHS9fXDxgs8OyNG9rh7Mvpxg+hOaqEU92oHIzYrBJwIDAQAB",
+   "manifest_version": 2,
+   "name": "Pinturillo 2",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.19"
+}

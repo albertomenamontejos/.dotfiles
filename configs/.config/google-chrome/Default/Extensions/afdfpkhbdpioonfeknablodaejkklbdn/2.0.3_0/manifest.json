@@ -1,0 +1,27 @@
+{
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "browser_action": {
+      "default_title": "__MSG_title__"
+   },
+   "content_scripts": [ {
+      "css": [ "content.styles.css" ],
+      "js": [ "contentScript.bundle.js" ],
+      "matches": [ "http://*/*", "https://*/*", "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "icon-128.png",
+      "34": "icon-34.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn7e1weG7iOQfu+xY7gO7JIWvC9ISE1OlVKe2VUIUgAdbN4Ifd9yjbRq+MOhPyaXmG/j2YswT9Z4nR/ndIrYZKywzhWPI+fZoOGr34/Mxw82S25c6Og1CNUV7OVPERTPNktWILMa90qd9Qtn1H8ZJlz461n0/80I5d3v+RlmkCCsvkgXnGBI1fHg4ad54yQxaj+LF1Mq/IugA/R9PCTYT8t0Ab1CsQVzw3TLgnFapPt0jgNXdxn4l9kR7CMMaDosYLLAaUEl1jgDpZ+1DJ9TZkfwlh+xWQYwYiWPeh5vGPjIq3ELJMSTy9ReOnGepg7mWVNID2riIQ3Le+bw8jaS+xQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "storage", "bookmarks", "unlimitedStorage", "favicon", "webRequest", "webRequestBlocking", "tabs", "alarms", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.3",
+   "web_accessible_resources": [ "_favicon/*", "*.svg", "*.png", "*.css", "*.otf", "chrome://favicon/*", "options.html" ]
+}

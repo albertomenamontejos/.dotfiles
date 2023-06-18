@@ -1,0 +1,534 @@
+ @font-face {
+     font-family: 'opensans-regular';
+     src: url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-regular.eot');
+     src: url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-regular.eot?#iefix') format('embedded-opentype'), url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-regular.woff') format('woff'), url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-regular.ttf') format('truetype'), url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-regular.svg#nexa_regularregular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ @font-face {
+     font-family: 'opensans-extrabold';
+     src: url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-extrabold.eot');
+     src: url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-extrabold.eot?#iefix') format('embedded-opentype'), url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-extrabold.woff') format('woff'), url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-extrabold.ttf') format('truetype'), url('chrome-extension://__MSG_@@extension_id__/fonts/opensans-extrabold.svg#nexa_regularregular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'Glyphicons Halflings';
+
+     src: url('chrome-extension://__MSG_@@extension_id__/fonts/glyphicons-halflings-regular.eot');
+     src: url('chrome-extension://__MSG_@@extension_id__/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('chrome-extension://__MSG_@@extension_id__/fonts/glyphicons-halflings-regular.woff') format('woff'), url('chrome-extension://__MSG_@@extension_id__/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('chrome-extension://__MSG_@@extension_id__/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+ }
+ body {
+     /*padding: 20px;*/
+ }
+ .CMY_Link {
+     background: #333 !important;
+     color: #fff !important;
+     font-weight: bold!important;
+     border-right: 1px solid #fff!important;
+ }
+ .CMY_Invalid_dark {
+     background: #990000 !important;
+     color: #fff !important;
+ }
+ .CMY_Valid {
+     background: #669900 !important;
+     color: #fff !important;
+ }
+ .CMY_Response {
+     color: #fff;
+     border-left: 1px solid #fff!important;
+     padding: 0px 5px!important;
+     margin: 0px 0px 0px 5px!important;
+ }
+ .CMY_Link {
+     background: #333 !important;
+     color: #fff !important;
+     font-weight: bold!important;
+     border-right: 1px solid #fff!important;
+ }
+ .CMY_Invalid_dark {
+     background: #990000 !important;
+     color: #fff !important;
+ }
+ .CMY_Invalid_light {
+     background: #FF0000 !important;
+     color: #fff !important;
+ }
+ .CMY_Valid {
+     background: #669900 !important;
+     color: #fff !important;
+ }
+ .CMY_Response {
+     color: #fff;
+     border-left: 1px solid #fff!important;
+     padding: 0px 5px!important;
+     margin: 0px 0px 0px 5px!important;
+ }
+ /*#jon_cooper_chrome_extension_auth_status {*/
+     /*display: none;*/
+ /*}*/
+ /*Bootstrap Css Start*/
+
+ .jon_cooper_chrome_extension_bg-primary {
+     font-family: 'opensans-extrabold'!important;
+     font-size: 24px!important;
+     color: #fff!important;
+     text-align: center!important;
+     text-transform: uppercase!important;
+     background: #000!important;
+     /*padding: 24px 0px 27px 0px;*/
+ }
+ .jon_cooper_chrome_extension_close {
+     color: #FFF!important;
+     text-shadow: rgb(0, 0, 0) 0px 1px 0px!important;
+ }
+ /*Bootstrap Css End*/
+ /* ******** */
+ /* RESULTS */
+ /* ******** */
+
+ .jon_cooper_chrome_extension-link-results {
+     background: #fff!important;
+     border-radius: 5px!important;
+     box-shadow: 0px 1px 15px -5px #000!important;
+     overflow: hidden!important;
+     width: 180px!important;
+     position: fixed!important;
+     right: 0px!important;
+     top: 0px!important;
+     z-index: 999999999999!important;
+     text-shadow: none !important;
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-title {
+     font-family: 'opensans-extrabold'!important;
+     font-size: 14px!important;
+     color: #fff!important;
+     text-transform: uppercase!important;
+     background: #000!important;
+     padding: 7px 0px 7px 7px !important;
+     position: relative!important;
+     text-align: left !important;
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-title a {
+     background: #f6881e url('chrome-extension://__MSG_@@extension_id__/images/close2.png') no-repeat center center!important;
+     width: 30px!important;
+     height: 100%!important;
+     display: inline-block!important;
+     position: absolute!important;
+     top: 0px!important;
+     right: 0px!important;
+     cursor: pointer!important;
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-title a.jc_download {
+     background: none!important;
+     /*right: 30px!important;*/
+
+     position: relative!important;
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-title a.jc_download img {
+     vertical-align: middle!important;
+     padding-left: 5px;
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-details {
+     padding: 10px 10px 10px 10px!important;
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-details > h1 {
+     font-family: 'opensans-extrabold'!important;
+     font-size: 44px!important;
+     line-height: 44px!important;
+     text-align: center!important;
+     margin: 0px!important;
+     margin-bottom: 5px!important;
+     color: #000!important;
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-details > .jon_cooper_chrome_extension-footer {
+     /**/
+ }
+ /* clearfix */
+
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-details > .jon_cooper_chrome_extension-footer:before, .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-details > .jon_cooper_chrome_extension-footer:after {
+     display: table!important;
+     line-height: 0;
+     content: "";
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-details > .jon_cooper_chrome_extension-footer:after {
+     clear: both;
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-details > .jon_cooper_chrome_extension-footer > div {
+     float: left!important;
+     width: 50%!important;
+     font-size: 14px!important;
+     color: #000!important;
+ }
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-details > .jon_cooper_chrome_extension-footer > div:first-child + div {
+     color: #f6881e!important;
+ }
+ .jon_cooper_chrome_extension-link-results > .jon_cooper_chrome_extension-footer > div {
+     float: left!important;
+     width: 50%!important;
+     color: #fff!important;
+     font-size: 16px!important;
+     box-sizing: border-box!important;
+     padding: 10px 0px 10px 50px!important;
+ }
+ /* clearfix */
+
+ .jon_cooper_chrome_extension-link-results > .jon_cooper_chrome_extension-footer:before, .jon_cooper_chrome_extension-link-results > .jon_cooper_chrome_extension-footer:after {
+     display: table;
+     line-height: 0;
+     content: "";
+ }
+ .jon_cooper_chrome_extension-link-results > .jon_cooper_chrome_extension-footer:after {
+     clear: both;
+ }
+ .jon_cooper_chrome_extension-link-results > .jon_cooper_chrome_extension-footer > div:first-child {
+     background: #7ca700 url('chrome-extension://__MSG_@@extension_id__/images/marker-check2.png') no-repeat center left!important;
+ }
+ .jon_cooper_chrome_extension-link-results > .jon_cooper_chrome_extension-footer > div:first-child + div {
+     background: #d40000 url('chrome-extension://__MSG_@@extension_id__/images/marker-cross2.png') no-repeat center left!important;
+ }
+ /*Modal css Start*/
+
+ .jon_cooper_chrome_extension_modal-body {
+     width: 100%!important;
+     margin: 0!important;
+     padding: 0!important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-authorize,
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-url,
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-social-media,
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results,
+ .jon_cooper_chrome_extension_modal-body #jon_cooper_chrome_extension_top_links_container ,
+ .jon_cooper_chrome_extension_modal-body #jon_cooper_chrome_extension_viewmore {
+     border-bottom: 1px solid #e8e6e7;
+     font-size: 17px !important;
+     font-family: 'opensans-regular'!important;
+     padding-left: 25px;
+     padding-right: 5px;
+     height: auto!important;
+     color: #000000 !important;
+     display: none;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-authorize {
+
+     font-size: 15px!important;
+     padding: 15px 25px 7px 25px !important;
+     /*padding-bottom: 7px;*/
+     border-bottom: 1px solid #e8e6e7;
+     font-size: 17px !important;
+     font-family: 'opensans-regular'!important;
+     /*padding-left: 25px;*/
+     /*padding-right: 5px;*/
+     height: auto!important;
+     color: #000000 !important;
+     /*text-align: center;*/
+     display: none;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-authorize a {
+     font-family: 'opensans-extrabold'!important;
+     font-size: 12px !important;
+     color: #fff !important;
+     text-transform: uppercase !important;
+     text-decoration: none !important;
+     background: #f6881e !important;
+     display: inline-block !important;
+     margin-left: 10px !important;
+     padding: 10px !important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-authorize a:hover {
+     background: #000 !important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-url {
+     padding-top: 15px !important;
+     padding-bottom: 15px !important;
+     color: #000!important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-url strong {
+     margin-right: 33px !important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-url p {
+     font-size: 17px !important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-social-media {
+     text-align: center !important;
+     padding-top: 23px !important;
+     padding-bottom: 23px;
+     padding-right: 25px;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-social-media > div {
+     display: inline-block !important;
+     margin-left: 15px;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-social-media > div:first-child {
+     margin-left: 0px !important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-social-media > div > img {
+     vertical-align: middle !important;
+     margin-right: 16px !important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-social-media > div > span {
+     border: 2px solid #e8e6e7 !important;
+     padding: 9px 10px 9px 10px !important;
+     vertical-align: middle !important;
+     display: inline-block !important;
+     min-width: 12px;
+     position: relative !important;
+     color: #000 !important
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-social-media > div > span:before {
+     content: '';
+     position: absolute !important;
+     width: 9px !important;
+     height: 100% !important;
+     top: 0px !important;
+     left: -9px !important;
+     background: url('chrome-extension://__MSG_@@extension_id__/images/arrow-social2.png') no-repeat center center !important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results > div {
+     float: left !important;
+     width: 50% !important;
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results {
+     /*border-bottom: none!important;*/
+     padding-top: 15px!important;
+     padding-bottom: 15px!important;
+     color: #000 !important;
+     /*min-height: 50px !important*/
+ }
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results p {
+     font-size: 17px !important;
+ }
+
+ /* clearfix */
+.jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results:before,
+.jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results:after{
+     display: table !important;
+     line-height: 0;
+     content: "";
+}
+.jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results:after{
+     clear: both !important;
+}
+
+.jon_cooper_chrome_extension-results strong{
+     margin-right: 19px;
+}
+/*.jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results .linksStat {
+     padding: 5px 0 5px 5px!important;
+     border: 1px solid #e8e6e7 !important;
+     width: 45% !important;
+     margin-right: 10px !important;
+
+}*/
+
+
+  /*.jon_cooper_chrome_extension-results .linksViewMore {
+     border: 1px solid #e8e6e7 !important;
+     padding: 5px 0 5px 5px !important;
+     clear: right !important;
+
+  }*/
+  .jon_cooper_chrome_extension-results .linksViewMore p {
+     /*border-bottom: 1px solid #e8e6e7 !important;*/
+     /*padding-bottom: 3px;*/
+  }
+ /* clearfix */
+ /*.jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results:before, .jon_cooper_chrome_extension_modal-body.jon_cooper_chrome_extension-results:after {
+     display: table !important;
+     line-height: 0 !important;
+     content: "";
+ }*/
+ /*.jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results:after {
+     clear: both!important;
+ }*/
+
+ .jon_cooper_chrome_extension_modal-body .jon_cooper_chrome_extension-results strong {
+     margin-right: 19px!important;
+ }
+ /* ******** */
+ /* DISABLED */
+ /* ******** */
+ /*.jon_cooper_chrome_extension_modal-body.disabled .jon_cooper_chrome_extension-authorize {
+     display: block;
+ }*/
+
+ .jon_cooper_chrome_extension_modal-body.disabled .jon_cooper_chrome_extension-social-media > div > img {
+     -webkit-filter: grayscale(100%)!important;
+     -moz-filter: grayscale(100%)!important;
+     -o-filter: grayscale(100%)!important;
+     -ms-filter: grayscale(100%)!important;
+     filter: grayscale(100%)!important;
+     opacity: 0.2!important;
+ }
+ .jon_cooper_chrome_extension_modal-content.disabled strong {
+     color: #d2d2d2!important;
+ }
+ /*Modal css End*/
+
+ .jon_cooper_chrome_extension_modal {
+     z-index: 999999;
+ }
+ .jon_cooper_chrome_extension_modal-dialog {
+     z-index: 99999999!important;
+ }
+ .jon_cooper_chrome_extension_modal-dialog {
+     min-width: 700px!important;
+ }
+ #jon_cooper_chrome_extension_viewmore {
+     padding-top:15px !important;
+     padding-bottom: 15px !important;
+  }
+ #jon_cooper_chrome_extension_viewmore p{
+     font-size: 17px !important;
+ }
+  #jon_cooper_chrome_extension_viewmore p a{
+     color: #41aedd !important;
+     padding-left: 5px !important;
+     font-size: 12px !important;
+     text-decoration: none !important;
+
+  }
+  #jon_cooper_chrome_extension_viewmore p a:hover{
+     text-decoration: underline !important;
+  }
+  #jon_cooper_chrome_extension_top_links_container {
+     padding: 10px !important;
+     border-bottom: none!important;
+     font-size: 13px !important;
+  }
+  #jon_cooper_chrome_extension_top_links_container a{
+     color: #000 !important;
+  }
+  #jon_cooper_chrome_extension_top_links_container a:hover{
+     text-decoration: underline !important;
+     color: #41aedd !important;
+  }
+   #jon_cooper_chrome_extension_top_links_container p.topFiveLinks{
+     padding-top: 10px !important;
+     padding-bottom: 10px !important;
+     font-size: 18px !important;
+     text-align: center !important;
+     color: #000000 !important;
+  }
+
+ .jon_cooper_chrome_extension-link-results .jon_cooper_chrome_extension-title .jon_cooper_chrome_extension_glyphicon {
+  position: relative !important;
+  top: 1px !important;
+  display: inline-block !important;
+  font-family: 'Glyphicons Halflings' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: 1 !important;
+  padding-left: 16px !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jon_cooper_chrome_extension_glyphicon-download:before {
+  content: "\e026" !important;
+}
+
+#jon_cooper_chrome_extension_top_links table thead,
+#jon_cooper_chrome_extension_top_links table tbody {
+    font-size: 12px !important;
+    color: #000000 !important;
+    font-size: 10px !important;
+}
+ #jon_cooper_chrome_extension_top_links table thead{
+     font-weight: bold !important;
+ }
+
+ .jon_cooper_chrome_extension_modal-title {
+     font-family: 'opensans-extrabold'!important;
+     font-weight: normal!important;
+ }
+ .linkMinerLoader {
+     height: 16px !important;
+     width: 16px !important;
+     margin: 0 auto !important;
+ }
+ .linkMinerSocial {
+     height: 41px !important;
+     width: 41px !important;
+ }
+ .majestic_access_token_container{
+    display: none;
+ }
+
+  /*#jon_cooper_chrome_extension_top_links{
+     padding: 10px;
+  }*/
+
+ .linkMinerTopRightCloseBox {
+     background: #fff!important;
+     border-radius: 5px!important;
+     box-shadow: 0px 1px 15px -5px #000!important;
+     overflow: hidden!important;
+     position: fixed!important;
+     right: 5px!important;
+     top: 3px!important;
+     z-index: 999999999999!important;
+     text-shadow: none !important;
+     height: 30px !important;
+     width: 60px !important;
+ }
+ .linkMinerInOutClose {
+     background: #f6881e url('chrome-extension://__MSG_@@extension_id__/images/close2.png') no-repeat center center!important;
+     width: 30px!important;
+     height: 100%!important;
+     display: inline-block!important;
+     position: absolute!important;
+     top: 0px!important;
+     right: 30px!important;
+     cursor: pointer!important;
+ }
+ .linkMinerInOutDownload{
+     font-family:'Glyphicons Halflings' !important;
+     font-style: normal !important;
+     font-weight: normal !important;
+     line-height: 33px !important;
+     top: 5px !important;
+     padding-left: 35px !important;
+     vertical-align: middle !important;
+     cursor: pointer !important;
+     font-size: 22px !important;
+     text-indent:0 !important;
+ }
+ .linkMinerInOutCountSpan{
+     padding: 2px 6px!important;
+     background-color: #f6881f!important;
+     font-weight: strong!important;
+     border-radius: 2px!important;
+     color: #FFFFFF!important;
+ }
+ .linkMinerPopupDivBottomRight{
+     background: #fff!important;
+     border-radius: 5px!important;
+     box-shadow: 0px 1px 15px -5px #000!important;
+     overflow: hidden!important;
+     position: fixed!important;
+     right: 5px!important;
+     bottom: 3px!important;
+     z-index: 999999999999!important;
+     text-shadow: none !important;
+     /*height: 50px !important;*/
+     /*width: 150px !important;*/
+ }
+ .linkMinerPopupClose{
+     position: absolute;
+     top: 4px;
+     right: 7px;
+     cursor: pointer;
+ }
+ .linkMinerMsgContainer{
+     width: 150px;
+     margin: 15px 20px 10px 10px;
+     text-transform: capitalize;
+ }
+

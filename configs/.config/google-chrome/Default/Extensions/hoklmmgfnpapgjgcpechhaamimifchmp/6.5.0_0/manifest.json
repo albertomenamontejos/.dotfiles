@@ -1,0 +1,45 @@
+{
+   "action": {
+      "default_icon": "images/icon128.png",
+      "default_title": "Similarweb"
+   },
+   "background": {
+      "service_worker": "background/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "content/content.css" ],
+      "js": [ "content/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "frame/frame.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDtAltq/HtarGbnR3hzjUeyBU5X1giAakPpIuBsjl6LRTklBHNETfi+aWA5BSq//xKnPbnmA5lHtxQWSh9E9tEKjxrdWeUwIsFBQaCFH2n25zihKhlkO50OD8iCJ6fwsJu4mTsSpmNJLrF8z4HLTrEjQPiJB6j/oNxldNKPuEbZfQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "options_ui": {
+      "page": "options/options.html"
+   },
+   "permissions": [ "scripting", "storage", "tabs", "webNavigation", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.5.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "images/*", "fonts/*", "panel/panel.html" ]
+   } ]
+}

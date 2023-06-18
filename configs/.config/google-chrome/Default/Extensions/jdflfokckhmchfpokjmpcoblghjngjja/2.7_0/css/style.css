@@ -1,0 +1,17 @@
+html{
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    min-height: 100%;
+    margin: 10px;
+    height: auto;
+    width: 700px;
+    background-color: #ffffff;
+}
+
+iframe{
+    overflow: hidden;
+}

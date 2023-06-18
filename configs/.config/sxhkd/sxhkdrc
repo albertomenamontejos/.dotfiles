@@ -1,0 +1,228 @@
+# Keybinds
+
+#################################################################################
+# Mai
+
+
+# Close App
+super + {_,shift+}q
+	bspc node -{c,k}
+
+# Reload Keybindings
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# kill window (with mouse)
+#ctrl + alt + Escape
+#      xkill
+
+# Quit/Restart bspwm
+#super + shift + {q,r}
+#	bspc {quit,wm -r}
+super + shift + r
+	startup	
+#	bspc wm -r
+
+
+# Terminal (kitty)
+super + Return
+	kitty
+
+# Rofi App Launcher
+super + d
+	sh $HOME/.config/rofi/bin/launcher
+# Rofi Menus/Applets
+super + {r,s,p,c,n}
+	sh $HOME/.config/rofi/bin/{runner,music,powermenu,screenshot,network}
+
+# Rofi Network Menu
+#super + n
+#	networkmanager_dmenu
+
+
+#################################################################################
+# Applications
+
+
+# Launch Apps
+#super + e
+#	thunar
+
+# Terminal Apps
+ctrl + alt + {v,n,r,h}
+	kitty -e {vim,nvim,ranger,htop}
+	
+
+#################################################################################
+# Window Manager
+
+
+# Split horizontal, vertical or cancel
+#super + {h,j,k,l}
+#	bspc node -p {east,south,cancel}
+
+# Fullscreen or Monocle
+super + m
+    bspc node -t "~"fullscreen
+
+# Toggle beetwen floating & tiled
+super + space
+    bspc node -t "~"{floating,tiled}
+
+# Pseudo Tiled & tiled mode
+#super + ctrl + alt + {p,t}
+#   bspc node -t "~"{pseudo_tiled,tiled}
+
+# Set the node flags
+#super + ctrl + {m,x,y,z}
+#	bspc node -g {marked,locked,sticky,private}
+
+
+#####################################
+
+
+
+# Send the window to another edge of the screen
+super+ {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+# Switch workspace
+super + ctrl + alt + {h,l}
+	bspc desktop -f {prev.local,next.local}
+
+# Switch to last opened workspace
+alt + {Tab,grave}
+	bspc {node,desktop} -f last
+
+# Send focused window to another workspace
+super + {_,shift + }{1-8}
+	bspc {desktop -f,node -d} '^{1-8}'
+
+
+
+
+#################################################################################
+
+
+
+# Preselect the direction
+super + ctrl +{h,j,k,l}
+	bspc node -p {west,north,south,east}
+
+# Preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# Cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel && bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel	
+
+# (implemented up)
+# Cancel the preselection for the focused desktop
+# super + ctrl + shift + space
+#	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel	
+
+
+
+#################################################################################
+
+
+#Custom move/resize
+alt + super + {h,j,k,l}
+	/home/alberto/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
+
+
+# move a floating window
+alt + shift + {h,j,k,l}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+	
+
+#################################################################################
+
+
+
+# Reload Keybindings
+super + Escape
+	pkill -USR1 -x sxhkd
+
+#Firefox
+super + shift + f
+	/usr/bin/firefox
+
+
+#################################################################################
+
+
+#Alternate keyboard layout
+alt + space
+	 sh $HOME/.config/bspwm/scripts/toggle_kb
+
+
+#################################################################################
+# Lockscreen
+#ctrl + alt + l
+ #       sh $HOME/.local/bin/lock
+
+# System Keys
+
+# Show GUI screenshot
+
+
+# Take a screenshot
+#Print
+#	sh $HOME/.local/bin/takeshot --now
+	
+# Take screenshot in 5 second
+#alt + Print	
+#	sh $HOME/.local/bin/takeshot --in5
+
+# Take screenshot in 10 second
+#shift + Print	
+#	sh $HOME/.local/bin/takeshot --in10
+
+# Take screenshot of active window
+#ctrl + Print
+#	sh $HOME/.local/bin/takeshot --win
+
+# Take screenshot of area
+#super + shift + s
+#	sh $HOME/.local/bin/takeshot --area
+
+# Brighness control
+#XF86MonBrightness{Up,Down}
+#	sh $HOME/.local/bin/brightness{ up, down}
+	
+# Volume control
+#XF86Audio{RaiseVolume,LowerVolume}
+#	sh $HOME/.local/bin/volume{ up, down}
+
+#XF86AudioMute
+#	sh $HOME/.local/bin/volume mute
+	
+# Music control
+#XF86Audio{Next,Prev,Play,Stop}
+#	mpc {next,prev,toggle,stop}
+
+
+
+#################################################################################
+
+
+# Expanding windows
+#super + control + {h,j,k,l}
+#	bspc node -z {left -20 0,right -20 0,top 0 -20,bottom 0 -20}
+	
+# Shrinking windows
+#super + alt + {h,j,k,l}
+#	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
+
+
+# Move floating windows
+#alt + shift + {Left,Down,Up,Right}
+#	bspc node -v {20 0,0 20,0 -20,-20 0}
+
+# Hide/Unhide Window
+#super + shift + i
+#	winmask		
+
+

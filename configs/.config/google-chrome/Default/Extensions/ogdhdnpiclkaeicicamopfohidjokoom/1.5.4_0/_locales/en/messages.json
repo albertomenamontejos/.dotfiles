@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "Checks webpages for broken links, and pulls metrics on those links.",
+      "message": "Checks webpages for broken links, and pulls metrics on those links."
+   },
+   "appName": {
+      "description": "Checks webpages for broken links, and pulls metrics on those links.",
+      "message": "LinkMiner"
+   }
+}

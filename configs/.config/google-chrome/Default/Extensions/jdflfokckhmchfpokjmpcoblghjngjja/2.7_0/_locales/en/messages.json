@@ -1,0 +1,14 @@
+{
+   "chrome_extension_description": {
+      "message": "This tool detects theme and plugins used on WordPress sites and displays information about them."
+   },
+   "lang": {
+      "message": "en"
+   },
+   "language": {
+      "message": "en"
+   },
+   "launch_popup_button": {
+      "message": "Click to view installed theme and plugins"
+   }
+}

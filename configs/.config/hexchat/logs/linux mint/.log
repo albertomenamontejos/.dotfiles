@@ -1,0 +1,5 @@
+**** INICIANDO CONEXIÓN EN Sun Jun 18 12:56:25 2023
+
+jun 18 12:56:25 Failed loading notification plugin: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+jun 18 12:56:26 *	Conectando a irc.spotchat.org (178.63.97.96:6667)
+jun 18 12:56:26 *	Conectado. Iniciando sesión.

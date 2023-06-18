@@ -1,0 +1,9 @@
+2023/06/08-00:22:06.513 5ee3 Reusing MANIFEST /home/alberto/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/06/08-00:22:06.513 5ee3 Recovering log #3
+2023/06/08-00:22:06.513 5ee3 Reusing old log /home/alberto/.config/google-chrome/Default/Sync Data/LevelDB/000003.log 
+2023/06/08-00:31:13.029 5ebf Level-0 table #5: started
+2023/06/08-00:31:13.052 5ebf Level-0 table #5: 149246 bytes OK
+2023/06/08-00:31:13.061 5ebf Delete type=0 #3
+2023/06/08-00:34:53.116 5ec0 Level-0 table #7: started
+2023/06/08-00:34:53.139 5ec0 Level-0 table #7: 101023 bytes OK
+2023/06/08-00:34:53.150 5ec0 Delete type=0 #4

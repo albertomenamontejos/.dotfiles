@@ -1,0 +1,14 @@
+{
+   "chrome_extension_description": {
+      "message": "Acest instrument detectează temele și pluginurile utilizate pe site-urile WordPress și afișează informații despre ele."
+   },
+   "lang": {
+      "message": "ro"
+   },
+   "language": {
+      "message": "ro"
+   },
+   "launch_popup_button": {
+      "message": "Faceți clic pentru a vizualiza tema și pluginurile instalate"
+   }
+}
