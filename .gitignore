@@ -1,0 +1,5 @@
+configs/.local/share
+configs/.local/state
+
+configs/.config/pulse
+configs/.config/dconf
