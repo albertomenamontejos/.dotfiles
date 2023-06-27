@@ -1,0 +1,6 @@
+2023/06/23-15:25:06.943 279f8 Creating DB /home/alberto/.config/google-chrome/Default/IndexedDB/https_accounts.google.com_0.indexeddb.leveldb since it was missing.
+2023/06/23-15:25:06.971 279f8 Reusing MANIFEST /home/alberto/.config/google-chrome/Default/IndexedDB/https_accounts.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/23-15:25:21.119 279f9 Level-0 table #5: started
+2023/06/23-15:25:21.126 279f9 Level-0 table #5: 2206 bytes OK
+2023/06/23-15:25:21.134 279f9 Delete type=0 #3
+2023/06/23-15:25:21.134 279f9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

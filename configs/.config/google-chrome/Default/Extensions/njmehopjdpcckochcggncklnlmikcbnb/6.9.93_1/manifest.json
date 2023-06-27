@@ -1,0 +1,54 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icon/16-off.png",
+         "48": "icon/48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Helium 10"
+   },
+   "author": "Helium10 \u003Csupport@helium10.com>",
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [  ],
+      "js": [ "vendors.js", "helium10.js" ],
+      "matches": [ "*://*.helium-dev.com/*", "*://*.helium10-dev.com/*", "*://*.helium10.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "css": [  ],
+      "exclude_matches": [ "*://*.sellercentral-europe.amazon.com/*", "*://*.sellercentral.amazon.com/*", "*://*.sellercentral.amazon.ca/*", "*://*.sellercentral.amazon.co.uk/*", "*://*.sellercentral.amazon.de/*", "*://*.sellercentral.amazon.es/*", "*://*.sellercentral.amazon.fr/*", "*://*.sellercentral.amazon.it/*", "*://*.ams.amazon.com/*", "*://*.ams.amazon.ca/*", "*://*.ams.amazon.co.uk/*", "*://*.ams.amazon.de/*", "*://*.ams.amazon.es/*", "*://*.ams.amazon.fr/*", "*://*.ams.amazon.it/*", "*://*.advertising.amazon.com/*", "*://*.advertising.amazon.ca/*", "*://*.advertising.amazon.co.uk/*", "*://*.advertising.amazon.de/*", "*://*.advertising.amazon.es/*", "*://*.advertising.amazon.fr/*", "*://*.advertising.amazon.it/*", "*://*.merch.amazon.com/*", "*://*.aws.amazon.com/*", "*://*.amazon.pl/*", "*://*.amazon.se/*", "*://*.amazon.sa/*", "*://*.amazon.sg/*", "*://*.amazon.com.br/*", "*://*.amazon.com.tr/*", "*://*.amazon.cn/*" ],
+      "js": [ "content-script.js", "vendors.js", "detect.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "Powerful Amazon and Walmart product research. Dive deep into marketplace data to assess competition, demand, opportunity & more.",
+   "differential_fingerprint": "1.48b12e275b5b204eecc6a46c0e6707efe1e0d8d85c74347aa114fff2a78067ee",
+   "externally_connectable": {
+      "matches": [ "*://*.helium-dev.com/*", "*://*.helium10.com/*" ]
+   },
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "32": "icon/32.png",
+      "48": "icon/48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnelehx76t6pioKAV/ybv5K3RfDaUlnqJ06Own2GNYEiQYBfcwVg3IxaWgzcM0G9GCLkrB3WUh61R4ONSQrWqRETnGO409ih9gXlii5fZ+nciiuStqXFxpzfHyj7D126yZnaynx24nNt/ZOqzhOdrG7AIBZ3ysRDanV7TC3X16qXWmonMexhttoy/bZLI5X0zwQMxRR3yvwQCQoezI9F6U2hzr3UxQLSdcsyb2KB4JYEIxLMfTu2HI6yjW2gDiirxreaXH6gNdAozv7O0v3t3PEwXLKQ/J04LDwNvqFP7Wm80GQrMLrKiw2+iUMROv1xa1io4Jg+nc1rVeJXT7F/zpwIDAQAB",
+   "manifest_version": 3,
+   "name": "Helium 10",
+   "optional_permissions": [  ],
+   "options_page": "options.html",
+   "permissions": [ "background", "activeTab", "tabs", "storage", "unlimitedStorage", "scripting" ],
+   "short_name": "Helium 10",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.9.93",
+   "version_name": "6.9.93"
+}

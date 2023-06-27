@@ -1,3 +1,6 @@
-2023/06/11-01:07:29.301 3 Reusing MANIFEST /home/alberto/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2023/06/11-01:07:29.302 3 Recovering log #3
-2023/06/11-01:07:29.303 3 Reusing old log /home/alberto/.config/google-chrome/Default/Session Storage/000003.log 
+2023/06/22-09:18:49.838 3 Reusing MANIFEST /home/alberto/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2023/06/22-09:18:49.839 3 Recovering log #3
+2023/06/22-09:18:49.839 3 Reusing old log /home/alberto/.config/google-chrome/Default/Session Storage/000003.log 
+2023/06/22-09:21:36.116 4 Level-0 table #5: started
+2023/06/22-09:21:36.133 4 Level-0 table #5: 21690 bytes OK
+2023/06/22-09:21:36.143 4 Delete type=0 #3

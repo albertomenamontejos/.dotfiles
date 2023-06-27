@@ -1,3 +1,6 @@
-2023/06/11-01:05:08.153 1b05a Reusing MANIFEST /home/alberto/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2023/06/11-01:05:08.153 1b05a Recovering log #6
-2023/06/11-01:05:08.155 1b05a Reusing old log /home/alberto/.config/google-chrome/Default/Sync Data/LevelDB/000006.log 
+2023/06/22-09:18:49.780 27a4f Reusing MANIFEST /home/alberto/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/06/22-09:18:49.780 27a4f Recovering log #6
+2023/06/22-09:18:49.781 27a4f Reusing old log /home/alberto/.config/google-chrome/Default/Sync Data/LevelDB/000006.log 
+2023/06/22-21:26:53.482 279f9 Level-0 table #10: started
+2023/06/22-21:26:53.497 279f9 Level-0 table #10: 89725 bytes OK
+2023/06/22-21:26:53.506 279f9 Delete type=0 #6

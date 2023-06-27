@@ -1,21 +1,9 @@
-2023/06/11-01:05:08.150 3 Reusing MANIFEST /home/alberto/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2023/06/11-01:05:08.151 3 Recovering log #11
-2023/06/11-01:05:08.152 3 Reusing old log /home/alberto/.config/google-chrome/Default/Local Storage/leveldb/000011.log 
-2023/06/11-01:07:49.806 4 Level-0 table #15: started
-2023/06/11-01:07:49.813 4 Level-0 table #15: 64003 bytes OK
-2023/06/11-01:07:49.823 4 Delete type=0 #11
-2023/06/11-01:07:56.082 4 Level-0 table #17: started
-2023/06/11-01:07:56.099 4 Level-0 table #17: 57145 bytes OK
-2023/06/11-01:07:56.108 4 Delete type=0 #14
-2023/06/11-01:07:56.109 4 Compacting 4@0 + 1@1 files
-2023/06/11-01:07:56.118 4 Generated table #18@0: 171 keys, 75020 bytes
-2023/06/11-01:07:56.118 4 Compacted 4@0 + 1@1 files => 75020 bytes
-2023/06/11-01:07:56.126 4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/06/11-01:07:56.127 4 Delete type=2 #15
-2023/06/11-01:07:56.127 4 Delete type=2 #10
-2023/06/11-01:07:56.127 4 Delete type=2 #17
-2023/06/11-01:07:56.127 4 Delete type=2 #12
-2023/06/11-01:07:56.128 4 Delete type=2 #7
-2023/06/11-01:40:50.986 4 Level-0 table #20: started
-2023/06/11-01:40:51.003 4 Level-0 table #20: 25545 bytes OK
-2023/06/11-01:40:51.013 4 Delete type=0 #16
+2023/06/22-09:18:49.778 3 Reusing MANIFEST /home/alberto/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/06/22-09:18:49.779 3 Recovering log #19
+2023/06/22-09:18:49.779 3 Reusing old log /home/alberto/.config/google-chrome/Default/Local Storage/leveldb/000019.log 
+2023/06/22-09:25:39.122 4 Level-0 table #23: started
+2023/06/22-09:25:39.142 4 Level-0 table #23: 75658 bytes OK
+2023/06/22-09:25:39.151 4 Delete type=0 #19
+2023/06/22-09:44:32.637 3 Level-0 table #25: started
+2023/06/22-09:44:32.659 3 Level-0 table #25: 49227 bytes OK
+2023/06/22-09:44:32.670 3 Delete type=0 #22
